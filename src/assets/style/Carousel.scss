@@ -1,0 +1,37 @@
+/* Carousel Style */
+
+.carousel{
+    color:$white;
+    .carousel-control-prev, .carousel-control-next{
+        width:5%;
+    }
+    .carousel-caption{
+        top: 40%;
+    }
+    .img-text{
+        background-color: transparent;
+        top: 0;
+    }
+    .btn-carousel{
+        height: 52px;
+        min-width: 234px;
+        font-size:20px;
+        color: $primary-color;
+        background-color: $white;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel{
+        .carousel-caption{
+            top: 25%;
+        }
+        .btn-carousel{
+            height: 52px;
+            min-width: 150px;
+            font-size:15px;
+            color: $primary-color;
+            background-color: $white;
+        }
+    }
+}

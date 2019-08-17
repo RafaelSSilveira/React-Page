@@ -1,0 +1,35 @@
+/* Intro Style */
+
+.intro{
+    margin-top:10%;
+    .intro-text {
+        color: $white;
+        margin-bottom: 5%;
+        h1 {
+            color: $white;
+            font-family: 'Roboto Slab', serif;
+            font-size:56px;
+        }
+        p {
+            padding: 10px 0px;
+            font-size: 20px;
+        }
+    }
+    .btn-intro {
+        color: $primary-color;
+        background-color: $white;
+        min-width:132px;
+        height:50px;
+        font-size: 20px;
+    }
+    .text-form {
+        font-size: 20px;
+        line-height: 26px;
+        padding:0px 10px 10px 10px;
+        margin: -20px 0px 10px;
+    }
+    input{
+        border-left: transparent;
+        height:48px;
+    }
+}

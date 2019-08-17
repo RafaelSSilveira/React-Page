@@ -1,0 +1,53 @@
+/* Offer Style */
+
+.offer {
+    width:358px;
+    z-index: -1;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    .card-offer {
+        background-color: $secondary-color;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        padding:10px 0 10px 0;
+        
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px; 
+    }
+    .card-offer-content {
+        display: flex;
+        align-items: center;
+        margin-top:-5px;
+        .offer-title{
+            color: $primary-color;
+            margin: 20px;
+        }
+        .offer-description {
+            margin-top:40px;
+            line-height: 40px;
+        }
+        span {
+            font-size: 14px;
+
+        }
+        .btn-card-offer {
+            height: 52px;
+            width: 150px;
+            color:$white;
+            background-color: $primary-color;
+        }
+    }
+
+    .card-offer-content-selected {
+        color: $white;
+        background-color: $primary-color;
+        .offer-title{
+            color: $white;
+        }
+        .btn-card-offer {
+            color: $primary-color;
+            background-color: $white;
+        }
+    }
+}

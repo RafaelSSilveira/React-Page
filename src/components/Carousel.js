@@ -12,7 +12,7 @@ export default class Carousel extends Component {
                     <div id="carouselCtrl" className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="d-block w-100" src={img1} alt="Primeiro Slide"></img>
+                                <img className="d-block w-100" src={img1} alt="Img 1"></img>
                                 <div className="carousel-caption">
                                     <h2>Bom teste.</h2>
                                     <Button
@@ -22,7 +22,7 @@ export default class Carousel extends Component {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={img1} alt="Primeiro Slide"></img>
+                                <img className="d-block w-100" src={img1} alt="Img 2"></img>
                                 <div className="carousel-caption">
                                     <h2>Bom teste.</h2>
                                     <Button
@@ -34,12 +34,12 @@ export default class Carousel extends Component {
                         </div>
                         <a className="carousel-control-prev" href="#carouselCtrl" role="button" data-slide="prev">
                             <span aria-hidden="true">
-                                <img className="d-block w-100" src={arrowLeft} alt="Img 1"></img>
+                                <img className="d-block w-100" src={arrowLeft} alt="Arrow-Left"></img>
                             </span>
                         </a>
                         <a className="carousel-control-next" href="#carouselCtrl" role="button" data-slide="next">
                             <span aria-hidden="true">
-                                <img className="d-block w-100" src={arrowRight} alt="Img 1"></img>
+                                <img className="d-block w-100" src={arrowRight} alt="Arrow-Right"></img>
                             </span>
                         </a>
                     </div>

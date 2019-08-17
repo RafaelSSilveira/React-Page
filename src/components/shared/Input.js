@@ -6,7 +6,7 @@ export default class Input extends Component {
             <div className="input-group mb-3">
                 <div className="input-group-prepend">
                     <span className="input-group-text">
-                        <img src={this.props.icon}></img>
+                        <img src={this.props.icon} alt="Icon"></img>
                     </span>
                 </div>
                 <input type="text" className="form-control" placeholder={this.props.placeholder}></input>
