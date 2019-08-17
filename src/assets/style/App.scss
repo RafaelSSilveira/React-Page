@@ -1,0 +1,196 @@
+
+@import '_variables';
+
+.App{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bk-main{
+    min-width: 100%;
+    min-height: 85%;
+    left:0;
+    right: 0;
+    top:0;
+    float: left;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(315.03deg, #00B8FF 0%, #712CCB 100%);
+}
+
+.container-main{
+    width:75%;
+}
+
+.container-default {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.input-group-text{
+    background-color: $white;
+    border-right:transparent;
+}
+
+.card{
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px;
+    background-color: $white;
+    max-width:358px;
+    box-shadow: 0 20px 20px -15px rgba(11,12,16,0.2);
+}
+
+.btn-default {
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bnt-icon {
+    margin: 0 4px 0 4px;
+}
+
+
+/* NavBar style */
+.navbar {
+    padding: 35px 0 0  0;
+    background-color: transparent !important;
+    color: $white;
+    ul li {
+        display: inline;
+        padding: 0px 20px 0px 20px;
+    }   
+}
+
+/* Intro Style */
+.intro{
+    margin-top:10%;
+    .intro-text {
+        color: $white;
+        margin-bottom: 5%;
+        h1 {
+            color: $white;
+            font-family: 'Roboto Slab', serif;
+            font-size:56px;
+        }
+        p {
+            padding: 10px 0px;
+            font-size: 20px;
+        }
+    }
+    .btn-intro {
+        color: $primary-color;
+        background-color: $white;
+        min-width:132px;
+        height:50px;
+        font-size: 20px;
+    }
+    .text-form {
+        font-size: 20px;
+        line-height: 26px;
+        padding:0px 10px 10px 10px;
+        margin: -20px 0px 10px;
+    }
+    input{
+        border-left: transparent;
+        height:48px;
+    }
+}
+
+/* Offer Style */
+.offer {
+    width:358px;
+    z-index: -1;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    .card-offer {
+        background-color: $secondary-color;
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        padding:10px 0 10px 0;
+        
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px; 
+    }
+    .card-offer-content {
+        display: flex;
+        align-items: center;
+        margin-top:-5px;
+        .offer-title{
+            color: $primary-color;
+            margin: 20px;
+        }
+        .offer-description {
+            margin-top:40px;
+            line-height: 40px;
+        }
+        span {
+            font-size: 14px;
+
+        }
+        .btn-card-offer {
+            height: 52px;
+            width: 150px;
+            color:$white;
+            background-color: $primary-color;
+        }
+    }
+
+    .card-offer-content-selected {
+        color: $white;
+        background-color: $primary-color;
+        .offer-title{
+            color: $white;
+        }
+        .btn-card-offer {
+            color: $primary-color;
+            background-color: $white;
+        }
+    }
+}
+
+/* Carousel Style */
+.carousel{
+    color:$white;
+    .carousel-control-prev, .carousel-control-next{
+        width:5%;
+    }
+    .carousel-caption{
+        top: 40%;
+    }
+    .img-text{
+        background-color: transparent;
+        top: 0;
+    }
+    .btn-carousel{
+        height: 52px;
+        min-width: 234px;
+        font-size:20px;
+        color: $primary-color;
+        background-color: $white;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-main{
+        width:100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel{
+        .carousel-caption{
+            top: 25%;
+        }
+        .btn-carousel{
+            height: 52px;
+            min-width: 150px;
+            font-size:15px;
+            color: $primary-color;
+            background-color: $white;
+        }
+    }
+}
+  
